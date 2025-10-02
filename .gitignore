@@ -1,0 +1,27 @@
+xX# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# Data files (don’t commit large PDFs or embeddings)
+data/raw_pdfs/
+data/processed/
+
+
